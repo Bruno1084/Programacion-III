@@ -68,10 +68,16 @@ if($var4 >= 18){
 }
 
 // Ejercicio 5
-for($i = 0; $i < 15; $i++) {
-  echo "<ul>Etiqueta $i </ul> \n";
+$loop = 3;
+for($i = 0; $i < $loop; $i++) {
+  echo "<ul>Etiqueta For $i </ul> \n";
 }
 
+while($j < $loop){
+  echo "<ul>Etiqueta While $i </ul> \n";
+
+  $j++;
+}
 
 // Ejercicio 6
 
