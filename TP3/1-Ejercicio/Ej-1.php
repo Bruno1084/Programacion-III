@@ -1,4 +1,11 @@
 <?php
+/* 
+  Ejercicio Nº 1: Desarrollar una pagina que permita ingresar dos números enteros y enviar 
+dichos valores a una segunda página que muestre por pantalla el valor de las variables 
+ingresadas y una tabla con la suma, la resta y la multiplicación y el resto de dividir ambas 
+variables
+*/
+
 $num1 = $_POST['fNum1'];
 $num2 = $_POST['fNum2'];
 
